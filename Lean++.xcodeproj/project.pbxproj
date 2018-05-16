@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BDAE35020AC7F8B00634479 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDAE34F20AC7F8B00634479 /* AppDelegate.swift */; };
+		2BDAE35220AC7F8B00634479 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDAE35120AC7F8B00634479 /* ViewController.swift */; };
+		2BDAE35520AC7F8B00634479 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDAE35320AC7F8B00634479 /* Main.storyboard */; };
+		2BDAE35720AC7F8B00634479 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDAE35620AC7F8B00634479 /* Assets.xcassets */; };
+		2BDAE35A20AC7F8B00634479 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDAE35820AC7F8B00634479 /* LaunchScreen.storyboard */; };
+		2BDAE36520AC7F8B00634479 /* Lean__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDAE36420AC7F8B00634479 /* Lean__Tests.swift */; };
+		2BDAE37020AC7F8B00634479 /* Lean__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDAE36F20AC7F8B00634479 /* Lean__UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BDAE36120AC7F8B00634479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BDAE34420AC7F8B00634479 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BDAE34B20AC7F8B00634479;
+			remoteInfo = "Lean++";
+		};
+		2BDAE36C20AC7F8B00634479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BDAE34420AC7F8B00634479 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BDAE34B20AC7F8B00634479;
+			remoteInfo = "Lean++";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BDAE34C20AC7F8B00634479 /* Lean++.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lean++.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BDAE34F20AC7F8B00634479 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BDAE35120AC7F8B00634479 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2BDAE35420AC7F8B00634479 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BDAE35620AC7F8B00634479 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BDAE35920AC7F8B00634479 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BDAE35B20AC7F8B00634479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BDAE36020AC7F8B00634479 /* Lean++Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lean++Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BDAE36420AC7F8B00634479 /* Lean__Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lean__Tests.swift; sourceTree = "<group>"; };
+		2BDAE36620AC7F8B00634479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BDAE36B20AC7F8B00634479 /* Lean++UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lean++UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BDAE36F20AC7F8B00634479 /* Lean__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lean__UITests.swift; sourceTree = "<group>"; };
+		2BDAE37120AC7F8B00634479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BDAE34920AC7F8B00634479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BDAE35D20AC7F8B00634479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BDAE36820AC7F8B00634479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BDAE34320AC7F8B00634479 = {
+			isa = PBXGroup;
+			children = (
+				2BDAE34E20AC7F8B00634479 /* Lean++ */,
+				2BDAE36320AC7F8B00634479 /* Lean++Tests */,
+				2BDAE36E20AC7F8B00634479 /* Lean++UITests */,
+				2BDAE34D20AC7F8B00634479 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BDAE34D20AC7F8B00634479 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BDAE34C20AC7F8B00634479 /* Lean++.app */,
+				2BDAE36020AC7F8B00634479 /* Lean++Tests.xctest */,
+				2BDAE36B20AC7F8B00634479 /* Lean++UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BDAE34E20AC7F8B00634479 /* Lean++ */ = {
+			isa = PBXGroup;
+			children = (
+				2BDAE34F20AC7F8B00634479 /* AppDelegate.swift */,
+				2BDAE35120AC7F8B00634479 /* ViewController.swift */,
+				2BDAE35320AC7F8B00634479 /* Main.storyboard */,
+				2BDAE35620AC7F8B00634479 /* Assets.xcassets */,
+				2BDAE35820AC7F8B00634479 /* LaunchScreen.storyboard */,
+				2BDAE35B20AC7F8B00634479 /* Info.plist */,
+			);
+			path = "Lean++";
+			sourceTree = "<group>";
+		};
+		2BDAE36320AC7F8B00634479 /* Lean++Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2BDAE36420AC7F8B00634479 /* Lean__Tests.swift */,
+				2BDAE36620AC7F8B00634479 /* Info.plist */,
+			);
+			path = "Lean++Tests";
+			sourceTree = "<group>";
+		};
+		2BDAE36E20AC7F8B00634479 /* Lean++UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BDAE36F20AC7F8B00634479 /* Lean__UITests.swift */,
+				2BDAE37120AC7F8B00634479 /* Info.plist */,
+			);
+			path = "Lean++UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BDAE34B20AC7F8B00634479 /* Lean++ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BDAE37420AC7F8B00634479 /* Build configuration list for PBXNativeTarget "Lean++" */;
+			buildPhases = (
+				2BDAE34820AC7F8B00634479 /* Sources */,
+				2BDAE34920AC7F8B00634479 /* Frameworks */,
+				2BDAE34A20AC7F8B00634479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lean++";
+			productName = "Lean++";
+			productReference = 2BDAE34C20AC7F8B00634479 /* Lean++.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BDAE35F20AC7F8B00634479 /* Lean++Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BDAE37720AC7F8B00634479 /* Build configuration list for PBXNativeTarget "Lean++Tests" */;
+			buildPhases = (
+				2BDAE35C20AC7F8B00634479 /* Sources */,
+				2BDAE35D20AC7F8B00634479 /* Frameworks */,
+				2BDAE35E20AC7F8B00634479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BDAE36220AC7F8B00634479 /* PBXTargetDependency */,
+			);
+			name = "Lean++Tests";
+			productName = "Lean++Tests";
+			productReference = 2BDAE36020AC7F8B00634479 /* Lean++Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BDAE36A20AC7F8B00634479 /* Lean++UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BDAE37A20AC7F8B00634479 /* Build configuration list for PBXNativeTarget "Lean++UITests" */;
+			buildPhases = (
+				2BDAE36720AC7F8B00634479 /* Sources */,
+				2BDAE36820AC7F8B00634479 /* Frameworks */,
+				2BDAE36920AC7F8B00634479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BDAE36D20AC7F8B00634479 /* PBXTargetDependency */,
+			);
+			name = "Lean++UITests";
+			productName = "Lean++UITests";
+			productReference = 2BDAE36B20AC7F8B00634479 /* Lean++UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BDAE34420AC7F8B00634479 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = SpotlightOBP;
+				TargetAttributes = {
+					2BDAE34B20AC7F8B00634479 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2BDAE35F20AC7F8B00634479 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2BDAE34B20AC7F8B00634479;
+					};
+					2BDAE36A20AC7F8B00634479 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2BDAE34B20AC7F8B00634479;
+					};
+				};
+			};
+			buildConfigurationList = 2BDAE34720AC7F8B00634479 /* Build configuration list for PBXProject "Lean++" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BDAE34320AC7F8B00634479;
+			productRefGroup = 2BDAE34D20AC7F8B00634479 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BDAE34B20AC7F8B00634479 /* Lean++ */,
+				2BDAE35F20AC7F8B00634479 /* Lean++Tests */,
+				2BDAE36A20AC7F8B00634479 /* Lean++UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BDAE34A20AC7F8B00634479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDAE35A20AC7F8B00634479 /* LaunchScreen.storyboard in Resources */,
+				2BDAE35720AC7F8B00634479 /* Assets.xcassets in Resources */,
+				2BDAE35520AC7F8B00634479 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BDAE35E20AC7F8B00634479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BDAE36920AC7F8B00634479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BDAE34820AC7F8B00634479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDAE35220AC7F8B00634479 /* ViewController.swift in Sources */,
+				2BDAE35020AC7F8B00634479 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BDAE35C20AC7F8B00634479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDAE36520AC7F8B00634479 /* Lean__Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BDAE36720AC7F8B00634479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDAE37020AC7F8B00634479 /* Lean__UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BDAE36220AC7F8B00634479 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BDAE34B20AC7F8B00634479 /* Lean++ */;
+			targetProxy = 2BDAE36120AC7F8B00634479 /* PBXContainerItemProxy */;
+		};
+		2BDAE36D20AC7F8B00634479 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BDAE34B20AC7F8B00634479 /* Lean++ */;
+			targetProxy = 2BDAE36C20AC7F8B00634479 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BDAE35320AC7F8B00634479 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BDAE35420AC7F8B00634479 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BDAE35820AC7F8B00634479 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BDAE35920AC7F8B00634479 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BDAE37220AC7F8B00634479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BDAE37320AC7F8B00634479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BDAE37520AC7F8B00634479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lean++/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-342342.Lean--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BDAE37620AC7F8B00634479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lean++/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-342342.Lean--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BDAE37820AC7F8B00634479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lean++Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-342342.Lean--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lean++.app/Lean++";
+			};
+			name = Debug;
+		};
+		2BDAE37920AC7F8B00634479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lean++Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-342342.Lean--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lean++.app/Lean++";
+			};
+			name = Release;
+		};
+		2BDAE37B20AC7F8B00634479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lean++UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-342342.Lean--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lean++";
+			};
+			name = Debug;
+		};
+		2BDAE37C20AC7F8B00634479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lean++UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-342342.Lean--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lean++";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BDAE34720AC7F8B00634479 /* Build configuration list for PBXProject "Lean++" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BDAE37220AC7F8B00634479 /* Debug */,
+				2BDAE37320AC7F8B00634479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BDAE37420AC7F8B00634479 /* Build configuration list for PBXNativeTarget "Lean++" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BDAE37520AC7F8B00634479 /* Debug */,
+				2BDAE37620AC7F8B00634479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BDAE37720AC7F8B00634479 /* Build configuration list for PBXNativeTarget "Lean++Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BDAE37820AC7F8B00634479 /* Debug */,
+				2BDAE37920AC7F8B00634479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BDAE37A20AC7F8B00634479 /* Build configuration list for PBXNativeTarget "Lean++UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BDAE37B20AC7F8B00634479 /* Debug */,
+				2BDAE37C20AC7F8B00634479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BDAE34420AC7F8B00634479 /* Project object */;
+}
