@@ -6,7 +6,7 @@ target 'Lean++' do
   use_frameworks!
 
   # Pods for Lean++
-
+pod 'Firebase/Auth'
   target 'Lean++Tests' do
     inherit! :search_paths
     # Pods for testing
@@ -17,6 +17,6 @@ target 'Lean++' do
     # Pods for testing
   end
 
-pod 'Firebase/Auth'
+
 
 end

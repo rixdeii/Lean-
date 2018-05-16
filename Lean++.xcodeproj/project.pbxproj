@@ -15,6 +15,9 @@
 		2BDAE35A20AC7F8B00634479 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDAE35820AC7F8B00634479 /* LaunchScreen.storyboard */; };
 		2BDAE36520AC7F8B00634479 /* Lean__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDAE36420AC7F8B00634479 /* Lean__Tests.swift */; };
 		2BDAE37020AC7F8B00634479 /* Lean__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDAE36F20AC7F8B00634479 /* Lean__UITests.swift */; };
+		2BDAE38320ACEF1B00634479 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BDAE38220ACEF1B00634479 /* GoogleService-Info.plist */; };
+		2BDAE38420ACEF1B00634479 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BDAE38220ACEF1B00634479 /* GoogleService-Info.plist */; };
+		2BDAE38520ACEF1B00634479 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BDAE38220ACEF1B00634479 /* GoogleService-Info.plist */; };
 		2FA27BCA73B4D5AABFECCA59 /* Pods_Lean__.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3F97477EDB38E872097CE2 /* Pods_Lean__.framework */; };
 		C6751C968E421F5034F00055 /* Pods_Lean__Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9CF150DEE7A5C51077741B /* Pods_Lean__Tests.framework */; };
 /* End PBXBuildFile section */
@@ -51,6 +54,7 @@
 		2BDAE36B20AC7F8B00634479 /* Lean++UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lean++UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDAE36F20AC7F8B00634479 /* Lean__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lean__UITests.swift; sourceTree = "<group>"; };
 		2BDAE37120AC7F8B00634479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BDAE38220ACEF1B00634479 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3D9799CFE51958AC57FE1331 /* Pods-Lean++Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lean++Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lean++Tests/Pods-Lean++Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6B3F97477EDB38E872097CE2 /* Pods_Lean__.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lean__.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74AAD90D17E7F287BBA2A058 /* Pods-Lean++UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lean++UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lean++UITests/Pods-Lean++UITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +118,7 @@
 		2BDAE34E20AC7F8B00634479 /* Lean++ */ = {
 			isa = PBXGroup;
 			children = (
+				2BDAE38220ACEF1B00634479 /* GoogleService-Info.plist */,
 				2BDAE34F20AC7F8B00634479 /* AppDelegate.swift */,
 				2BDAE35120AC7F8B00634479 /* ViewController.swift */,
 				2BDAE35320AC7F8B00634479 /* Main.storyboard */,
@@ -284,6 +289,7 @@
 				2BDAE35A20AC7F8B00634479 /* LaunchScreen.storyboard in Resources */,
 				2BDAE35720AC7F8B00634479 /* Assets.xcassets in Resources */,
 				2BDAE35520AC7F8B00634479 /* Main.storyboard in Resources */,
+				2BDAE38320ACEF1B00634479 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BDAE38420ACEF1B00634479 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +305,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BDAE38520ACEF1B00634479 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,9 +639,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VU2354FNYC;
 				INFOPLIST_FILE = "Lean++/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-342342.Lean--";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lean;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -646,9 +656,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VU2354FNYC;
 				INFOPLIST_FILE = "Lean++/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-342342.Lean--";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lean;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
