@@ -17,4 +17,6 @@ target 'Lean++' do
     # Pods for testing
   end
 
+pod 'Firebase/Auth'
+
 end
